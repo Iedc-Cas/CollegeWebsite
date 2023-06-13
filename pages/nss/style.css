@@ -349,12 +349,11 @@ nav{
     gap: 30px;
     width: 100px;
     display: none;
+    gap: 30px;
 
     
   }
-  .menu-hide{
-    display: none;
-  }
+
   .menu{
     display: block;
     font-size: 2rem
