@@ -346,12 +346,11 @@ nav{
   }
   .nav-bar{
     flex-direction: column;
+    gap: 30px;
     width: 100px;
     display: none;
+
     
-  }
-  .nav-bar a{
-    margin-top: 10px;
   }
   .menu-hide{
     display: none;
@@ -368,6 +367,9 @@ nav{
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+  .nav-bar a{
+    margin-bottom: 20px;
   }
 }
 i{
