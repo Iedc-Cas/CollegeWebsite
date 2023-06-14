@@ -1074,17 +1074,15 @@ details[open] summary::marker{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .arrow{
-  position: absolute;
+  position: relative;
   transform: rotate(0deg);
-  margin-left: 85px;
+  margin-left: 10px;
   margin-top: 2px;
   width: 16px;
 }
 .dropdown:hover .arrow{
   transform: rotate(180deg);
-
 }
-
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -1167,5 +1165,9 @@ details[open] summary::marker{
   .dropdown:hover .dropdown-content {
   display: block;
   position: relative;
+  padding-top: 20px;
   }
+  .dropdown:hover .dropdown-content a {
+    margin-bottom: 10px;
+    }
 }
