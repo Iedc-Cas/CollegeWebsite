@@ -1083,7 +1083,6 @@ details[open] summary::marker{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  position: relative;
 }
 .dropdown-content a {
   display: block;
@@ -1159,5 +1158,9 @@ details[open] summary::marker{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
+  }
+  .dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
   }
 }
