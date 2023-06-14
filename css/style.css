@@ -1071,17 +1071,19 @@ details[open] summary::marker{
 .arrow{
   position: absolute;
   transform: rotate(0deg);
-  margin-left: 100px;
+  margin-left: 85px;
   margin-top: 2px;
   width: 16px;
 }
 .dropdown:hover .arrow{
   transform: rotate(180deg);
+
 }
 
 
 .dropdown:hover .dropdown-content {
   display: block;
+  position: relative;
 }
 .dropdown-content a {
   display: block;
