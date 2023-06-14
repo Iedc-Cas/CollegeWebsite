@@ -17,7 +17,6 @@ const ShowMoreFunction = (btn) => {
 };
 
 const MobileMenu = (btn) => {
-    console.log("worked");
     if (menuToggled == false) {
         menuToggled = true;
         ul.style.display = "block";
