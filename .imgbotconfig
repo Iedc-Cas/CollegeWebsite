@@ -1,6 +1,6 @@
 {
-  "images": ["*.jpg", "*.jpeg", "*.png"],
-  "quality": 90,
-  "schedule": "daily",
-  "minKBReduced": 100
+    "schedule": "daily",
+    "aggressiveCompression": "true",
+    "compressWiki": "true",
+    "minKBReduced": 500,
 }
