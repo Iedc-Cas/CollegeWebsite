@@ -568,6 +568,11 @@ video {
   margin-bottom: 100px;
 }
 
+.sidemenu-img{
+  width: 80%;
+  height: 80%;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
